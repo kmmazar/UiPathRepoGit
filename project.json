@@ -1,0 +1,72 @@
+{
+  "name": "SampleTestProject",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.Mail.Activities": "[1.10.0-preview]",
+    "UiPath.System.Activities": "[19.4.1]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.68888069",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8698353c-8eb3-43c5-a317-ca8623d2bc93",
+        "fileName": "STP-TC1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "458d673f-5979-4216-8e30-3da63aa40362",
+        "fileName": "STP-TC2.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "STP-TC1.xaml",
+      "uniqueId": "8698353c-8eb3-43c5-a317-ca8623d2bc93",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "STP-TC2.xaml",
+      "uniqueId": "458d673f-5979-4216-8e30-3da63aa40362",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
